@@ -20,3 +20,10 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Implementação
+1. Foi adicionado um arquivo de solução ao projeto
+2. Foram feitos ajustes no arquivo de projeto
+3. O projeto foi migrado para a versão 8 do .net core
+4. Foi feita a implemrentação das features solicitadas
+5. Foi feita a documentação do código fonte
