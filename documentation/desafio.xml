@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DesafioPOO</name>
+    </assembly>
+    <members>
+        <member name="T:DesafioPOO.Models.Iphone">
+            <summary>
+            Classe que representa um smartphone iphone
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Iphone.#ctor">
+            <summary>
+            Método construtor da classe
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Iphone.#ctor(System.String)">
+            <summary>
+            Método construtor da classe
+            </summary>
+            <param name="numero">Número do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Iphone.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Classe base que representa um smartphone
+            </summary>
+            <param name="numero">Número do smartphone</param>
+            <param name="modelo">Modelo do smartphone</param>
+            <param name="iMEI">IMEI do smartphone</param>
+            <param name="memoria">Quantidade de memória do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Iphone.InstalarAplicativo(System.String)">
+            <summary>
+            Método que simula a instalação de um smartphone iphone 
+            </summary>
+            <param name="nomeApp">Tipo de smartphone</param>
+        </member>
+        <member name="T:DesafioPOO.Models.Nokia">
+            <summary>
+            Classe que representa um smartphone nokia
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Nokia.#ctor">
+            <summary>
+            Método construtor da classe
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Nokia.#ctor(System.String)">
+            <summary>
+            Método construtor da classe
+            </summary>
+            <param name="numero">Número do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Nokia.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Classe base que representa um smartphone
+            </summary>
+            <param name="numero">Número do smartphone</param>
+            <param name="modelo">Modelo do smartphone</param>
+            <param name="iMEI">IMEI do smartphone</param>
+            <param name="memoria">Quantidade de memória do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Nokia.InstalarAplicativo(System.String)">
+            <summary>
+            Método que simula a instalação de um smartphone nokia 
+            </summary>
+            <param name="nomeApp">Tipo de smartphone</param>
+        </member>
+        <member name="T:DesafioPOO.Models.Smartphone">
+            <summary>
+            Classe base que representa um smartphone
+            </summary>
+            <param name="numero">Número do smartphone</param>
+            <param name="modelo">Modelo do smartphone</param>
+            <param name="iMEI">IMEI do smartphone</param>
+            <param name="memoria">Quantidade de memória do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Classe base que representa um smartphone
+            </summary>
+            <param name="numero">Número do smartphone</param>
+            <param name="modelo">Modelo do smartphone</param>
+            <param name="iMEI">IMEI do smartphone</param>
+            <param name="memoria">Quantidade de memória do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.#ctor(System.String)">
+            <summary>
+            Método construtor da classe
+            </summary>
+            <param name="numero">Número do smartphone</param>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.#ctor">
+            <summary>
+            Método construtor da classe
+            </summary>
+        </member>
+        <member name="P:DesafioPOO.Models.Smartphone.Numero">
+            <summary>
+            Número do smartphone
+            </summary>
+        </member>
+        <member name="P:DesafioPOO.Models.Smartphone.Modelo">
+            <summary>
+            Modelo do smartphone
+            </summary>
+        </member>
+        <member name="P:DesafioPOO.Models.Smartphone.IMEI">
+            <summary>
+            IMEI do smartphone
+            </summary>
+        </member>
+        <member name="P:DesafioPOO.Models.Smartphone.Memoria">
+            <summary>
+            Quantidade de memória do smartphone
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.Ligar">
+            <summary>
+            Método que simula uma ligação
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.ReceberLigacao">
+            <summary>
+            Método que simula o recebimento de uma ligação
+            </summary>
+        </member>
+        <member name="M:DesafioPOO.Models.Smartphone.InstalarAplicativo(System.String)">
+            <summary>
+            Método que simula a instalação do smartphone
+            </summary>
+            <param name="nomeApp"></param>
+        </member>
+    </members>
+</doc>
